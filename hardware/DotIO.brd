@@ -1703,6 +1703,7 @@
 <wire x1="7.09" y1="54.265" x2="7.09" y2="32.23" width="0.01" layer="20"/>
 <rectangle x1="10.73" y1="13.265" x2="16.46" y2="19.08" layer="43"/>
 <rectangle x1="0.905" y1="27.01" x2="4.305" y2="38.25" layer="43"/>
+<text x="5.785" y="15.69" size="0.8128" layer="21" rot="R90">4.7kΩ</text>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -4143,11 +4144,15 @@ design rules under a new name.</description>
 <wire x1="15.0876" y1="24.5364" x2="16.3068" y2="23.3172" width="0.1524" layer="1"/>
 <wire x1="12.192" y1="24.5364" x2="15.0876" y2="24.5364" width="0.1524" layer="1"/>
 <wire x1="8.0772" y1="20.4216" x2="12.192" y2="24.5364" width="0.1524" layer="1"/>
-<wire x1="8.0772" y1="6.858" x2="8.0772" y2="20.4216" width="0.1524" layer="1"/>
+<wire x1="8.0772" y1="6.858" x2="8.0772" y2="7.2" width="0.1524" layer="1"/>
+<wire x1="8.0772" y1="7.39" x2="8.0772" y2="20.4216" width="0.1524" layer="1"/>
 <wire x1="12.954" y1="1.9812" x2="8.0772" y2="6.858" width="0.1524" layer="1"/>
 <wire x1="14.0208" y1="1.9812" x2="12.954" y2="1.9812" width="0.1524" layer="1"/>
 <wire x1="16.1544" y1="17.526" x2="16.015" y2="17.46" width="0.1524" layer="1"/>
 <wire x1="14.0208" y1="1.9812" x2="14.145" y2="1.9" width="0.1524" layer="1"/>
+<contactref element="R2" pad="2"/>
+<wire x1="8.965" y1="7.39" x2="8.0772" y2="7.39" width="0.1524" layer="1"/>
+<wire x1="8.0772" y1="7.39" x2="8.0772" y2="7.2" width="0.1524" layer="1"/>
 </signal>
 <signal name="MISO">
 <contactref element="U1" pad="16"/>
@@ -4157,10 +4162,14 @@ design rules under a new name.</description>
 <wire x1="12.3444" y1="24.2316" x2="14.9352" y2="24.2316" width="0.1524" layer="1"/>
 <wire x1="8.6868" y1="20.574" x2="12.3444" y2="24.2316" width="0.1524" layer="1"/>
 <wire x1="8.6868" y1="11.5824" x2="8.6868" y2="20.574" width="0.1524" layer="1"/>
-<wire x1="16.6116" y1="3.6576" x2="8.6868" y2="11.5824" width="0.1524" layer="1"/>
+<wire x1="16.6116" y1="3.6576" x2="9.8171" y2="10.4521" width="0.1524" layer="1"/>
+<wire x1="9.8171" y1="10.4521" x2="8.6868" y2="11.5824" width="0.1524" layer="1"/>
 <wire x1="16.6116" y1="1.9812" x2="16.6116" y2="3.6576" width="0.1524" layer="1"/>
 <wire x1="16.002" y1="17.9832" x2="16.015" y2="17.96" width="0.1524" layer="1"/>
 <wire x1="16.6116" y1="1.9812" x2="16.685" y2="1.9" width="0.1524" layer="1"/>
+<contactref element="R6" pad="2"/>
+<wire x1="8.95" y1="9.84" x2="9.205" y2="9.84" width="0.1524" layer="1"/>
+<wire x1="9.205" y1="9.84" x2="9.8171" y2="10.4521" width="0.1524" layer="1"/>
 </signal>
 <signal name="SCK">
 <contactref element="U1" pad="17"/>
@@ -4784,12 +4793,6 @@ design rules under a new name.</description>
 <wire x1="5.0292" y1="7.0104" x2="5.334" y2="7.3152" width="0.1524" layer="1"/>
 <wire x1="7.1628" y1="7.3152" x2="7.265" y2="7.39" width="0.1524" layer="1"/>
 <wire x1="5.0292" y1="7.0104" x2="4.97" y2="6.93" width="0.1524" layer="1"/>
-</signal>
-<signal name="D-">
-<contactref element="R6" pad="2"/>
-</signal>
-<signal name="D+">
-<contactref element="R2" pad="2"/>
 </signal>
 <signal name="RGB_RED">
 <contactref element="R1" pad="4"/>
